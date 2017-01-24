@@ -10,11 +10,12 @@
 		831228E41E36E2B6008159AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831228E31E36E2B6008159AB /* main.m */; };
 		831228E71E36E2B6008159AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831228E61E36E2B6008159AB /* AppDelegate.m */; };
 		831228EA1E36E2B6008159AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831228E91E36E2B6008159AB /* ViewController.m */; };
-		831228ED1E36E2B6008159AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831228EB1E36E2B6008159AB /* Main.storyboard */; };
 		831228EF1E36E2B6008159AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831228EE1E36E2B6008159AB /* Assets.xcassets */; };
 		831228F21E36E2B6008159AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831228F01E36E2B6008159AB /* LaunchScreen.storyboard */; };
 		831228FD1E36E2B6008159AB /* LFY_PresentationControolersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831228FC1E36E2B6008159AB /* LFY_PresentationControolersTests.m */; };
 		831229081E36E2B6008159AB /* LFY_PresentationControolersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831229071E36E2B6008159AB /* LFY_PresentationControolersUITests.m */; };
+		831229171E36E4DC008159AB /* CustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831229161E36E4DC008159AB /* CustomPresentationController.m */; };
+		8312291D1E36F77C008159AB /* LFYAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312291C1E36F77C008159AB /* LFYAnimatedTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		831228E61E36E2B6008159AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		831228E81E36E2B6008159AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		831228E91E36E2B6008159AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		831228EC1E36E2B6008159AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831228EE1E36E2B6008159AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831228F11E36E2B6008159AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831228F31E36E2B6008159AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		831229031E36E2B6008159AB /* LFY_PresentationControolersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFY_PresentationControolersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831229071E36E2B6008159AB /* LFY_PresentationControolersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFY_PresentationControolersUITests.m; sourceTree = "<group>"; };
 		831229091E36E2B6008159AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831229151E36E4DC008159AB /* CustomPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationController.h; sourceTree = "<group>"; };
+		831229161E36E4DC008159AB /* CustomPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationController.m; sourceTree = "<group>"; };
+		8312291B1E36F77C008159AB /* LFYAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFYAnimatedTransition.h; sourceTree = "<group>"; };
+		8312291C1E36F77C008159AB /* LFYAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFYAnimatedTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,10 @@
 				831228E61E36E2B6008159AB /* AppDelegate.m */,
 				831228E81E36E2B6008159AB /* ViewController.h */,
 				831228E91E36E2B6008159AB /* ViewController.m */,
-				831228EB1E36E2B6008159AB /* Main.storyboard */,
+				831229151E36E4DC008159AB /* CustomPresentationController.h */,
+				831229161E36E4DC008159AB /* CustomPresentationController.m */,
+				8312291B1E36F77C008159AB /* LFYAnimatedTransition.h */,
+				8312291C1E36F77C008159AB /* LFYAnimatedTransition.m */,
 				831228EE1E36E2B6008159AB /* Assets.xcassets */,
 				831228F01E36E2B6008159AB /* LaunchScreen.storyboard */,
 				831228F31E36E2B6008159AB /* Info.plist */,
@@ -251,7 +258,6 @@
 			files = (
 				831228F21E36E2B6008159AB /* LaunchScreen.storyboard in Resources */,
 				831228EF1E36E2B6008159AB /* Assets.xcassets in Resources */,
-				831228ED1E36E2B6008159AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831229171E36E4DC008159AB /* CustomPresentationController.m in Sources */,
 				831228EA1E36E2B6008159AB /* ViewController.m in Sources */,
 				831228E71E36E2B6008159AB /* AppDelegate.m in Sources */,
 				831228E41E36E2B6008159AB /* main.m in Sources */,
+				8312291D1E36F77C008159AB /* LFYAnimatedTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		831228EB1E36E2B6008159AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				831228EC1E36E2B6008159AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		831228F01E36E2B6008159AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = LFY_PresentationControolers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.LFY-PresentationControolers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = LFY_PresentationControolers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "luffy.LFY-PresentationControolers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
